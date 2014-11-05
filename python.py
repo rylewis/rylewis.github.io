@@ -1,9 +1,14 @@
-meal = 44.50
+Timothy = 30
+Ro = "Cats"
+Number = 40
 
-tax = 6.75
+Sum = Timothy * Number
 
-tip = meal + tax *0.15
+print Sum
 
-variable_one = tip
-
-print variable_one
+n = input("Penguins?")
+n = str(n)
+if True:
+    	print Ro
+else:
+    	print Sum
