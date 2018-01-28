@@ -1,0 +1,73 @@
+body {
+    font-family: "Century Schoolbook";
+    font-size: 30px;
+    background-color: linen;
+}
+
+h1 {
+    color: maroon;
+    text-align: center;
+    margin-outside: 100px;
+}
+
+p {
+    color: crimson;
+    text-align: center;
+    margin-outside: 100px;
+}
+
+.column {
+    float: contour;
+    width: 33.33%;
+    text-align: center;
+    padding: 20px;
+    margin-outside: 50px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-outside: 50px;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-outside: 50px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 50x 50x;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.button {
+    font-family: "Century Schoolbook";
+    font-size: 30px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    background-color: crimson;
+    border-radius: 5px;
+    color: beige;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+

@@ -1,0 +1,7 @@
+a:link {
+    color: red;
+}
+
+
+
+
